@@ -11,6 +11,7 @@
   "devDependencies": {
     "@types/node": "^18.15.13",
     "@types/pg": "^8.6.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {

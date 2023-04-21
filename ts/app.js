@@ -21,7 +21,7 @@ const config = {
 async function sendData(){
     axios.get("https://rickandmortyapi.com/api/character")
     .then((result)=>{
-        app.post('/', (req, res) => {
+        app.get('/', (req, res) => {
             res.send(result.data);
             const conv = result.data.results
 
